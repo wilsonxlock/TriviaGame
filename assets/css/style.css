@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.body {
+    background-color: lightblue;
+    margin: auto;
+    width: 50%
+}
+.buttons {
+    width:70%;
+    left:15%;
+    position: relative;
+    
+}
