@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-var time = "10";
+var time = "90";
 function timeup (){time--;$(".timer").html("Time left " + time);if (time == "0"){
      $(".timer").html('<img src="assets/javascript/images/donttread.JPG">');$(".choice1,.chocie2,.choice3,.chocie4").hide();end()}};
 function timeclock(){setInterval(function(){timeup()},1000);}
